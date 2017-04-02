@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-arboleyapablo-02
+  host: IoT-arboleyapablo-02
+  disk_quota: 1024M
+  services:
+  - IoT-arboleyapablo-02-cloudantNoSQLDB
+  - IoT-arboleyapablo-02-iotf-service
